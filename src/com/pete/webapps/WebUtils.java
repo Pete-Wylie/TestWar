@@ -1,0 +1,9 @@
+package com.pete.webapps;
+
+public class WebUtils {
+
+	public String getMyName(){
+		return "\n\n\nMy name is Pete";
+	}
+	
+}
