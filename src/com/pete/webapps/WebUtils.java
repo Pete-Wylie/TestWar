@@ -3,7 +3,7 @@ package com.pete.webapps;
 public class WebUtils {
 
 	public String getMyName(){
-		return "\n\n\nMy name is Pete and this is feature 1 branch";
+		return "\n\n\nMy name is Pete and this is feature 1 branch edited in master";
 	}
 	
 }
