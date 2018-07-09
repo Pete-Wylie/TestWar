@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ page import="com.pete.webapps.WebUtils"%> 
+<%@ page import="com.pete.webapps.MySupportClass"%> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -12,8 +12,9 @@ Hello there Worldyz!!
 
 
 <% 
-  WebUtils myWebUtils = new WebUtils();
-	out.println(myWebUtils.getMyName());
+	MySupportClass mySupport = new MySupportClass();
+
+	out.println(mySupport.myTest());
 
 %>
 </body>
