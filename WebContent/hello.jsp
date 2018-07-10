@@ -8,8 +8,8 @@
 <title>Hello World</title>
 </head>
 <body>
-Hello there Worldyz!!
-
+<h1>Testing CI Build Deployment</h1>
+This page shows the WAR file running on the server
 
 <% 
 	MySupportClass mySupport = new MySupportClass();
